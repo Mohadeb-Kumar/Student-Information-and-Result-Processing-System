@@ -1,0 +1,746 @@
+.required:after {
+	content:" *";      /*To show "asterisk(*)" symble at required field*/
+	color: red;
+}
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+html{
+	background:#dddddd;	/*Fixing background color of whole html stucture for all pages*/
+}
+
+.back{
+	background:#f5f5f5cf;	/*Fixing background color of whole body stucture for all pages*/
+	height:800px;
+	width:1200px;
+	margin:0 auto;	/*Using for auto center align of body structure*/
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family:Century;
+}
+
+h1,h2,h3,h4,h5,h6,label{
+	font-family:Roboto;
+	color:#3f51b5;
+}
+
+.heading{
+	text-align:center;
+	margin-top:7px;
+}
+
+label{
+	font-weight:bold;
+	/*margin-left:17px;*/
+}
+
+.success{
+	background:green;
+	color:white;
+	line-height:30px;
+	border-radius:5px;
+	height:30px;
+	
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.error{
+	background:#ff1515;
+	color:white;
+	line-height:30px;
+	border-radius:5px;
+	height:30px;
+	
+	text-align:center;
+	margin-bottom:10px;
+}
+
+
+
+/*..........................about_us.php page CSS...........................*/
+.mohadeb_img{
+    height: 379px;
+    width: 247px;
+    margin-left: -973px;
+    margin-top: 5px;
+}
+
+.mohadeb_text{
+	height: 377px;
+    width: 706px;
+    margin-left: 459px;
+    margin-top: 121px;
+    float: left;
+    font-size: 21px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+/*..........................add_marks.php page CSS...........................*/
+.add_marks_div1{
+    width: 243px;
+    margin-left: -212px;
+    float: left;
+}
+
+.add_marks_lebel1{
+    margin-left: 242px;
+    margin-top: -10px;
+    float: left;
+}
+
+.add_marks_lebel2{
+    margin-top: -57px;
+    margin-left: 379px;
+    float: left;
+}
+
+.add_marks_lebel3{
+    margin-top: -77px;
+    margin-left: 695px;
+    float: left;
+}
+
+.input3{
+	width: 270px;
+    height: 28px;
+    margin-top: 5px;
+}
+
+.add_marks_in1{
+    width: 120px;
+    height: 32px;
+    margin-top: -79px;
+    background: #dcdcdca8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce5b09;
+    margin-left: 242px;
+}
+
+.add_marks_in2{
+	width: 302px;
+    height: 32px;
+    margin-top: -56px;
+    margin-left: 377px;
+    float: left;
+    background: #dcdcdca8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce5b09;
+}
+
+.add_marks_in3{
+    width: 120px;
+    height: 32px;
+    margin-top: -75px;
+    margin-left: 694px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce5b09;
+}
+
+.add_marks_btn{
+    width: 100px;
+    height: 36px;
+    margin-top: -114px;
+    margin-left: 828px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    background: #68b9ca;
+    border-radius: 3px;
+    padding: 5px;
+    background: #43a7bc;
+    color: white;
+}
+
+.add_marks_btn:hover{
+	background:#68b9ca;
+}
+
+
+
+/*..........................add_student.php page CSS...........................*/
+.fixing_warning_mgs{
+    width: 634px;
+    margin-left: -168px;
+    float: left;
+}
+
+.add_student_content{
+	margin-top: 14px;
+    height: auto;
+    margin-left: 320px;
+}
+
+.adstdl{
+    width: 634px;
+    float: left;
+}
+
+.adstdr{
+    width: 195px;
+    float: left;
+    margin-left: -276px
+}
+
+.input3{
+	width: 270px;
+    height: 28px;
+    margin-top: 5px;
+}
+
+.address_in{
+	width: 270px;
+    height: 54px;
+    margin-top: 5px;
+}
+
+.option_in{
+	width: 274px;
+    height: 31px;
+    margin-top: 5px;
+}
+
+.birth_op{
+	width: 88px;
+    height: 31px;
+    margin-top: 5px;
+}
+
+.add_student_btn {
+    width: 630px;
+    border-radius: 5px;
+    padding: 10px;
+    background: #3345a7;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+/*..........................add_teacher.php page CSS...........................*/
+.content1{
+	margin-top: 14px;
+    height: auto;
+   /* width: 400px;
+    margin-left: 247px;
+	float:left;*/
+}
+.add_teacher_div{
+	width: 30%;
+    margin-left: 326px;
+}
+
+
+/*..........................admin_home.php page CSS...........................*/
+#section{
+	height:auto;
+	width:1164px;
+	margin-left:10px;
+
+}
+
+.content{
+	margin-top:30px;
+	height:auto;
+	width:934px;
+	float:left;
+}
+
+.text{
+	text-align:center;
+}
+
+.para{
+	text-align:justify;
+	padding:15px;
+	line-height:34px;
+}
+
+.view_notice{
+	width: 923px;
+    height: 456px;
+	margin:2px;
+	border:none;
+	background:#f1f1f1;
+	font-size:18px;
+	font-family:Century;
+	text-align:justify;
+}
+
+
+
+/*..........................dbconnection.php page CSS...........................*/
+
+
+
+/*..........................desired_result.php page CSS...........................*/
+.rbox1{
+    width: 668px;
+    height: 153px;
+    float: left;	/*To remove block level property of "div"*/
+    margin-left: -20px;
+}
+
+.rbox2{
+	width: 668px;
+    height: 304px;
+    margin-left: 485px;
+}
+
+.desired_result1{
+	border-collapse:collapse; /*To remove table default double line*/
+    width: 500px;
+    height: 444px;
+    margin-left: 73px;
+    text-align: center;
+    float: left;
+	color:black;
+	background:#ccf3b485;
+}
+
+.desired_result2{
+	border-collapse:collapse;
+    width: 500px;
+    height: 444px;
+    text-align: center;
+	color:black;
+	background:#ccf3b485;
+}
+.table_row_style{
+	    background: #00ff9561;
+}
+.result_print_btn{
+    border-radius: 3px;
+    padding: 10px;
+    background: #43a7bc;
+    color: white;
+    margin-left: 1066px;
+    margin-top: 22px;
+}
+
+.result_print_btn:hover{
+	background:#1dce3b;
+}
+
+
+
+/*..........................edit_profile.php page CSS...........................*/
+
+
+/*..........................footer1.php page CSS...........................*/
+.footer1{
+	background:#3f51b5;
+	height:100px;
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:173px;
+	text-align:center;
+}
+
+
+
+/*..........................footer2.php page CSS...........................*/
+.footer2{
+	background:#3f51b5;
+	height:100px;
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:737px;
+	text-align:center;
+}
+
+
+
+/*..........................footer3.php page CSS...........................*/
+.footer3{
+	background:#3f51b5;
+	height:100px;
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:370px;
+	text-align:center;
+}
+
+
+/*..........................footer4.php page CSS...........................*/
+.footer4{
+    background: #3f51b5;
+    height: 100px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 718px;
+    text-align: center;
+    margin-left: -10px;
+}
+/*..........................index.php page CSS...........................*/
+.btn{
+	width:92%;
+	border-radius:5px;
+	padding:10px;
+	background:#3345a7;
+	color:white;
+	margin-top:20px;
+	margin-left:17px;
+}
+
+.btn:hover{
+	background:#193858;
+	
+}
+
+.input{
+	height:30px;
+	width:90%;
+	padding:2px;
+	margin-top:10px;
+	margin-left:17px;
+}
+
+.login{
+	background:white;
+	height:261px;
+	width:33%;
+	margin:0 auto;
+	padding:10px;
+	margin-top:25px;
+	margin-bottom:40px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*..........................logout.php page CSS...........................*/
+
+
+
+/*..........................make_notice.php page CSS...........................*/
+.make_notice{
+	width: 923px;
+    height: 429px;
+	margin:2px;
+	
+	font-size:18px;
+	font-family:Century;
+	text-align:justify;
+}
+
+.notice_btn{
+    width: 107px;
+    border-radius: 5px;
+    padding: 10px;
+    background: #19b2fb;
+    color: black;
+    margin-top: 4px;
+    margin-left: 609px;
+	margin-bottom:3px;
+	font-weight:bold;
+}
+
+.notice_btn:hover{
+	background:#17d46b;
+	
+}
+
+
+
+/*..........................search_student.php page CSS...........................*/
+
+.btnView{
+	border-radius:5px;
+	padding:5px;
+	background:#43a7bc;
+	color:white;
+}
+
+.btnView:hover{
+	border-radius:5px;
+	padding:5px;
+	background:#68b9ca;
+	color:white;
+}
+
+.btnEdit{
+	border-radius:5px;
+	padding:5px;
+	background:green;
+	color:white;
+}
+
+.btnEdit:hover{
+	border-radius:5px;
+	padding:5px;
+	background:#40ea6c;
+	color:white;
+}
+
+.btnDelete{
+	border-radius:5px;
+	padding:5px;
+	background:#ff0000;
+	color:white;
+}
+
+.btnDelete:hover{
+	background:#ff5e5e;
+}
+
+/*..........................set_course.php page CSS...........................*/
+.set_course1{
+	
+	width:30%;
+	margin-right:20px;
+	float:left;
+}
+
+.set_course2{
+    width: 574px;
+    /*height: 153px;*/
+    float: left;
+    margin-left: 50px;
+	margin-top:-41px;
+}
+
+.add_course_btn{
+    width: 97%;
+    border-radius: 5px;
+    padding: 10px;
+    background: #3345a7;
+    color: white;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+
+/*..........................sidebar.php page CSS...........................*/
+.sidebar{
+	width:200px;
+	height:auto;
+	margin-top:30px;
+	margin-right:30px;
+	float:left;
+	background:white;
+}
+
+.sideber_li{
+	list-style:none;
+}
+
+.li{
+	position:relative;
+	display:block;
+	padding:20px 30px;
+	margin-bottom:-1px;
+	background-color:#ffffff;
+	border:1px solid #ecf0f1;
+}
+
+
+
+/*..........................student_profile_admin_view.php page CSS...........................*/
+.upload_img_mgs{
+	width: 525px;
+    height: 20px;
+    margin-left: 187px;
+	
+}
+
+.imgUpbtn{
+	padding: 2px;
+    background: #16ad3d;
+    border-radius: 5px;
+    color: white;
+}
+
+.imgUpbtn:hover{
+    background: green;
+
+}
+
+/*..........................teacher_home.php page CSS...........................*/
+
+
+/*..........................teacher_login.php page CSS...........................*/
+
+/*..........................teacher_profile.php page CSS...........................*/
+.teacher_profile_table{
+	border-collapse:collapse; /*To remove table default double line*/
+    width: 555px;
+    height: 560px;
+    margin-left: 188px;
+    text-align: center
+}
+
+.teacher_profile_btn{
+    border-radius: 3px;
+    padding: 5px;
+    background: #43a7bc;
+    color: white;
+    margin-left: 63px;
+}
+
+.teacher_profile_btn:hover{
+	background:#68b9ca;
+}
+
+
+
+/*..........................topbar.php page CSS...........................*/
+.topbar{
+	background:#3f51b5;
+	height:50px;
+	width:100%;
+	font-size:20px;
+	font-weight:bold;
+}
+
+a{
+	text-decoration:none; /*To remove underline from Align link text*/
+}
+
+.list{
+	list-style:none; /*To remove bullet before Align link text*/
+	/*text-align:left;*/
+	text-align:right;
+}
+
+.list li{
+	display:inline; /*To displlay Align link text in one line*/
+	border-right:1px solid #2B2A2A;
+	
+}
+
+.list li:last-child{
+	border-right:none; /* To remove last list boder solid*/
+}
+
+.list li a{
+	text-decoration:none;
+	color:white;
+	line-height:50px;
+	padding:20px; /* Making squre separation or squre increase*/
+	font-size:20px;
+}
+
+.project_logo{
+	margin-top:-50px;
+	margin-left:14px;
+}
+
+/*..........................view_result.php page CSS...........................*/
+.view_result_op{
+	width: 363px;
+    height: 39px;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+.login1{
+	background:#70a4dac4;
+	height:261px;
+	width:33%;
+	margin:0 auto;
+	padding:10px;
+	margin-top:25px;
+	margin-bottom:40px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/*..........................view_student.php page CSS...........................*/
+.view_student_content1{
+	margin-top: 14px;
+    height: auto;
+}
+.search_input{
+    height: 32px;
+    width: 370px;
+    padding: 2px;
+    margin-top: -7px;
+    margin-left: -1px;
+    text-align: center;
+	border-radius:15px;
+	border: 3px solid #36a1f3;
+}
+
+.input2{
+	width:80%;
+	height:40px;
+	margin-top:20px;
+}
+
+.text{
+	text-align:center;		
+}
+
+tr,td,th{
+	padding:10px;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+.search_icon{
+    height: 45px;
+    width: 45px;
+    margin-left: 238px;
+    float: left;
+    margin-top: -9px;;
+}
+
+
+
+/*..........................view_teachers.php page CSS...........................*/
+
+
+table caption{
+	font-size: 23px;
+    font-weight: bold;
+    color: #56bb17;
+    margin-top: -21px;
+    margin-bottom: 5px;
+}
+
+
+
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+/*..........................mohadeb.php page CSS...........................*/
+
+
+
+
+
+
+
+
+
+

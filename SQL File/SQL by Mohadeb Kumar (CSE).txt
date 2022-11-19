@@ -1,0 +1,249 @@
+...................................SQL for Creating "management" Database..................
+	CREATE DATABASE management;
+
+...................................SQL for Creating table under "management" Databse.......
+CREATE TABLE admin(
+
+        AID varchar(10),
+        ANAME varchar(50),
+        APASSWORD varchar(50),     //This is "admin" table
+        NOTICE TEXT,
+        
+        PRIMARY KEY(AID)
+       );
+
+
+
+
+CREATE TABLE course(
+
+        TID varchar(10),
+        CLASS varchar(10),         //This is "course" table
+        SUBJECT varchar(150)       
+        );
+
+
+CREATE TABLE marks(
+
+        SID varchar(10),
+        BANGLA double(4,2),
+        ENGLISH double(4,2),	  //This is "marks" table
+        MATHEMATICS double(4,2),
+        TOTAL double(4,2),
+        
+        PRIMARY KEY(SID)  
+     )
+
+
+CREATE TABLE student(
+    
+    SID varchar(10),
+    SNAME varchar(50),
+    FATHER varchar(50),
+    MOTHER varchar(50),
+    GENDER varchar(20),		//This is "student" table
+    CLASS varchar(10),
+    DOB date,
+    PHONE varchar(30),
+    ADDRESS text,
+    IMG varchar(200),
+    
+    PRIMARY KEY(SID) 
+    );
+
+
+
+CREATE TABLE teacher(
+    	
+    TID varchar(10),
+    TNAME varchar(50),
+    TPASSWORD varchar(50),
+    QUALIFICATION varchar(100),		//This is "teacher" table
+    GENDER varchar(20),
+    SALARY double(8,2),
+    EMAIL varchar(50),
+    PHONE varchar(30),
+    ADDRESS text,
+    IMG varchar(200),
+    
+    PRIMARY KEY(TID)
+    
+    
+	);
+...................................SQL for Manipulating"management" Database...............
+...................................SQL Using "INSERT"......................................
+INSERT INTO admin(AID,ANAME,APASSWORD)
+VALUES
+('M101', 'MOHADEB KUMAR', '123');
+
+
+INSERT INTO teacher(TID, TNAME, TPASSWORD, QUALIFICATION, GENDER, SALARY, EMAIL, PHONE, ADDRESS)
+VALUES
+('T101', 'MOHADEB KUMAR', '123', 'BSC Eng. in CSE', 'Male', 45000.00, 'mohadeb.cse@gmail.com', '01521491161', 'Adamdighi, Bogura'),
+
+('T102', 'PANKAJ ROY', '456', 'BSC Eng. in CSE', 'Male', 46000.00, 'pankaj@gmail.com', '01736542598', 'Ranigonj, Lalmonirhat'),
+
+('T103', 'PRIYA SARKAR', '123', 'BSC in MATHEMATICS', 'Female', 45500.00, 'priya@gmail.com', '01535462598', 'Naogaon Sardar, Naogaon'),
+
+('T104', 'LITU BOCHON', '789', 'BSC Eng. in CSE', 'Male', 44500.00, 'bochon@gmail.com', '01823654695', 'Sherpur, Nohakhali'),
+
+('T105', 'JAKIR HOSSAIN', '321', 'BSC Eng. in CSE', 'Male', 44000.00, 'jakir@gmail.com', '01732165016', 'Kaharol, Dinajpur');
+
+
+
+
+
+
+
+
+
+INSERT INTO student(SID, SNAME, FATHER, MOTHER, GENDER, CLASS, DOB, PHONE, ADDRESS)
+VALUES
+('A101', 'Mohadeb Kumar', 'Binoy Chandra Debnath', 'Shoba Rani', 'Male', 'I', '17-09-2014', '01746019124', 'Karai, Adamdighi, Bogura'),
+
+('A102', 'Amit Debnath', 'Biram Chandra Debnath', 'Diptti Rani Debnath', 'Male', 'I', '08-12-2014', '01736425985', 'Karai, Adamdighi, Bogura'),
+
+('A103', 'Puja Rani Debnath', 'Protab Chandra Debnath', 'Ratoshi Rani', 'Female', 'I', '16-08-2014', '01563236524', 'Tilabadury, Attrai, Naogaon'),
+
+('A104', 'Jibon Pramanik', 'Ramindra Pramanik', 'Shondha Rani', 'Male', 'I', '14-05-2014', '01832165235', 'Karai, Adamdighi, Bogura'),
+
+('A105', 'Borsha Mohanta', 'Bishno Chandra Mohanta', 'Bijoli Rani Mohanta', 'Female', 'I', '19-05-2014', '01965412365', 'Karai, Adamdighi, Bogura'),
+
+
+
+('B101', 'Mohadeb Kumar', 'Binoy Chandra Debnath', 'Shoba Rani', 'Male', 'II', '17-09-2014', '01746019124', 'Karai, Adamdighi, Bogura'),
+
+('B102', 'Amint Debnath', 'Biram Chandra Debnath', 'Diptti Rani Debnath', 'Male', 'II', '08-12-2014', '01736425985', 'Karai, Adamdighi, Bogura'),
+
+('B103', 'Puja Rani Debnath', 'Protab Chandra Debnath', 'Ratoshi Rani', 'Female', 'II', '16-08-2014', '01563236524', 'Tilabadury, Attrai, Naogaon'),
+
+('B104', 'Jibon Pramanik', 'Ramindra Pramanik', 'Shondha Rani', 'Male', 'II', '14-05-2014', '01832165235', 'Karai, Adamdighi, Bogura'),
+
+('B105', 'Borsha Mohanta', 'Bishno Chandra Mohanta', 'Bijoli Rani Mohanta', 'Female', 'II', '19-05-2014', '01965412365', 'Karai, Adamdighi, Bogura'),
+
+
+
+('C101', 'Mohadeb Kumar', 'Binoy Chandra Debnath', 'Shoba Rani', 'Male', 'III', '17-09-2014', '01746019124', 'Karai, Adamdighi, Bogura'),
+
+('C102', 'Amint Debnath', 'Biram Chandra Debnath', 'Diptti Rani Debnath', 'Male', 'III', '08-12-2014', '01736425985', 'Karai, Adamdighi, Bogura'),
+
+('C103', 'Puja Rani Debnath', 'Protab Chandra Debnath', 'Ratoshi Rani', 'Female', 'III', '16-08-2014', '01563236524', 'Tilabadury, Attrai, Naogaon'),
+
+('C104', 'Jibon Pramanik', 'Ramindra Pramanik', 'Shondha Rani', 'Male', 'III', '14-05-2014', '01832165235', 'Karai, Adamdighi, Bogura'),
+
+('C105', 'Borsha Mohanta', 'Bishno Chandra Mohanta', 'Bijoli Rani Mohanta', 'Female', 'III', '19-05-2014', '01965412365', 'Karai, Adamdighi, Bogura'),
+
+
+
+
+('D101', 'Mohadeb Kumar', 'Binoy Chandra Debnath', 'Shoba Rani', 'Male', 'IV', '17-09-2014', '01746019124', 'Karai, Adamdighi, Bogura'),
+
+('D102', 'Amit Debnath', 'Biram Chandra Debnath', 'Diptti Rani Debnath', 'Male', 'IV', '08-12-2014', '01736425985', 'Karai, Adamdighi, Bogura'),
+
+('D103', 'Puja Rani Debnath', 'Protab Chandra Debnath', 'Ratoshi Rani', 'Female', 'IV', '16-08-2014', '01563236524', 'Tilabadury, Attrai, Naogaon'),
+
+('D104', 'Jibon Pramanik', 'Ramindra Pramanik', 'Shondha Rani', 'Male', 'IV', '14-05-2014', '01832165235', 'Karai, Adamdighi, Bogura'),
+
+('D105', 'Borsha Mohanta', 'Bishno Chandra Mohanta', 'Bijoli Rani Mohanta', 'Female', 'IV', '19-05-2014', '01965412365', 'Karai, Adamdighi, Bogura'),
+
+
+
+('E101', 'Mohadeb Kumar', 'Binoy Chandra Debnath', 'Shoba Rani', 'Male', 'V', '17-09-2014', '01746019124', 'Karai, Adamdighi, Bogura'),
+
+('E102', 'Amit Debnath', 'Biram Chandra Debnath', 'Diptti Rani Debnath', 'Male', 'V', '08-12-2014', '01736425985', 'Karai, Adamdighi, Bogura'),
+
+('E103', 'Puja Rani Debnath', 'Protab Chandra Debnath', 'Ratoshi Rani', 'Female', 'V', '16-08-2014', '01563236524', 'Tilabadury, Attrai, Naogaon'),
+
+('E104', 'Jibon Pramanik', 'Ramindra Pramanik', 'Shondha Rani', 'Male', 'V', '14-05-2014', '01832165235', 'Karai, Adamdighi, Bogura'),
+
+('E105', 'Borsha Mohanta', 'Bishno Chandra Mohanta', 'Bijoli Rani Mohanta', 'Female', 'V', '19-05-2014', '01965412365', 'Karai, Adamdighi, Bogura');
+
+
+
+
+
+INSERT INTO course(TID, CLASS, SUBJECT)
+VALUES
+('T101', 'I', 'Bangla'),
+('T101', 'II', 'Bangla'),
+('T101', 'III', 'Bangla'),
+('T101', 'IV', 'Bangla'),
+
+('T102', 'I', 'Mathematics'),
+('T102', 'II', 'Mathematics'),
+('T102', 'III', 'Mathematics'),
+('T102', 'IV', 'Mathematics'),
+
+('T103', 'I', 'English'),
+('T103', 'II', 'English'),
+('T103', 'III', 'English'),
+('T103', 'IV', 'English');
+
+
+INSERT INTO marks(SID, BANGLA, ENGLISH, MATHEMATICS)
+VALUES
+('A101', 85.00, 90.50, 88.00),
+('A102', 86.50, 45.00, 45.00),
+('A103', 55.00, 43.50, 88.50),
+('A104', 86.50, 65.00, 78.00),
+('A105', 67.00, 45.50, 67.00),
+
+('B101', 85.00, 90.50, 88.00),
+('B102', 86.50, 45.00, 45.00),
+('B103', 55.00, 43.50, 88.50),
+('B104', 86.50, 65.00, 78.00),
+('B105', 67.00, 45.50, 67.00),
+
+('C101', 85.00, 90.50, 88.00),
+('C102', 86.50, 45.00, 45.00),
+('C103', 55.00, 43.50, 88.50),
+('C104', 86.50, 65.00, 78.00),
+('C105', 67.00, 45.50, 67.00),
+
+('D101', 85.00, 90.50, 88.00),
+('D102', 86.50, 45.00, 45.00),
+('D103', 55.00, 43.50, 88.50),
+('D104', 86.50, 65.00, 78.00),
+('D105', 67.00, 45.50, 67.00);
+
+
+...................................SQL Using "ALTER"......................................
+ALTER TABLE marks
+DROP COLUMN TOTAL;
+
+ALTER TABLE admin
+ADD COLUMN USERNAME varchar(100);
+
+
+...................................SQL Using "UPDATE"......................................
+
+UPDATE teacher
+SET SALARY=45000.50 WHERE TID='T107'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

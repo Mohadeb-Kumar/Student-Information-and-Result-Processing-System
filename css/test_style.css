@@ -1,0 +1,61 @@
+
+
+.btnr{
+	border-radius:5px;
+	padding:5px;
+	background:#ff0000;
+	color:white;
+	
+}
+
+.btnr:hover{
+	border-radius:5px;
+	padding:5px;
+	background:#ff5e5e;
+	color:white;
+	
+}
+
+
+.btnb{
+	border-radius:5px;
+	padding:5px;
+	background:#43a7bc;
+	color:white;
+
+}
+
+.btnb:hover{
+	border-radius:5px;
+	padding:5px;
+	background:#68b9ca;
+	color:white;
+
+
+}
+
+
+.input2{
+	width:80%;
+	height:40px;
+	margin-top:20px;
+	
+}
+
+
+
+.text{
+	text-align:center;		
+	
+}
+
+
+tr,td,th{
+	padding:20px;
+}
+
+.table{
+	border-collapse:collapse;
+}
+
+
